@@ -1,0 +1,9 @@
+@import './partials/_reset.scss';
+
+$bg-color: rgb(4, 37, 9);
+$color: rgb(255, 253, 253);
+
+body {
+    background: $bg-color;
+    color:$color;
+}
