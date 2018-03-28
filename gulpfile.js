@@ -18,6 +18,10 @@ const htmlminoptions = {
 const babeloptions = {
     presets: ['env']
 };
+
+const renameoptions = {
+    basename: 'styles'
+};
 //had to install gulp-cli globally
 
 
@@ -82,7 +86,7 @@ gulp.task('sass_mincss', () =>
         .pipe(plumber())
         .pipe(sass().on('error', sass.logError))
         .pipe(cssmin())
-        .pipe(rename({ suffix: '.min' }))
+        .pipe(rename(renameoptions))
         .pipe(plumber.stop())
         .pipe(gulp.dest('dist/css'))
         .pipe(browserSync.stream())

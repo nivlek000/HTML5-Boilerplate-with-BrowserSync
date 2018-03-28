@@ -1,4 +1,7 @@
 @import './partials/_reset.scss';
+@import './partials/_variables.scss';
+@import './partials/_mixins.scss';
+@import './partials/_base.scss';
 
 $bg-color: rgb(4, 37, 9);
 $color: rgb(255, 253, 253);
