@@ -2,7 +2,6 @@
 
 
 ## Random Work Notes
-Sass Structure,
-JS Structurre,
-Webpack???
+Js require cant work in the browser environment
+Webpack Variant ???
 Foundation ??

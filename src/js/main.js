@@ -2,7 +2,7 @@ import http from 'http';
 //const http = require('http');
 //Had to install Babel because import is not supported fully 
 //npm install --save-dev babel-cli babel-preset-env
-
+ 
 const fs = require('fs');
 const formidable = require('formidable'); //file uploading
 const os = require('os');
@@ -11,6 +11,11 @@ const hostname = '127.0.0.1';
 const port = 3000;
 const index_html = 'src/index.html';
 const homedir = os.homedir();
+
+console.log(header_main.outerHTML);   
+console.log(paragraph_1.textContent);   
+paragraph_2.outerHTML = "<p id=\"paragraph-1\"> Changed outer HTML via Java Script </p>"
+
 
 
 fs.readFile(index_html, (err, data) => {

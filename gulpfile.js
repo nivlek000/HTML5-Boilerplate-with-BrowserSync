@@ -20,7 +20,7 @@ const babeloptions = {
 };
 
 const renameoptions = {
-    basename: 'styles'
+    basename: 'main'
 };
 //had to install gulp-cli globally
 

@@ -1,11 +1,11 @@
 {
-  "name": "html5_boilerplate_with_browsersync",
+  "name": "html5_boilerplate_with_browsersync_and_babel",
   "version": "1.0.0",
   "description": "Gulp Enabled HTML5 SCSS ES6 Boilerplate with BrowserSync and Babel",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "reset": "rm -rf dist",
+    "clean": "rm -rf dist",
     "start": "gulp"
   },
   "author": "Samson Maconi",

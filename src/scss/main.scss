@@ -1,7 +1,7 @@
-@import './partials/_reset.scss';
-@import './partials/_variables.scss';
-@import './partials/_mixins.scss';
-@import './partials/_base.scss';
+@import './partials/reset';
+@import './partials/variables';
+@import './partials/mixins';
+@import './partials/base';
 
 $bg-color: rgb(4, 37, 9);
 $color: rgb(255, 253, 253);
@@ -9,4 +9,8 @@ $color: rgb(255, 253, 253);
 body {
     background: $bg-color;
     color:$color;
+}
+
+#paragraph-1 {
+    color: rgb(255, 60, 0);
 }
